@@ -1,0 +1,31 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Orange Crescent Shape -->
+  <path
+    d="M30 85C15 75 10 55 15 40C20 25 35 15 50 15C65 15 80 25 85 40"
+    stroke="#F97316"
+    stroke-width="8"
+    stroke-linecap="round"
+  />
+  
+  <!-- Chef Hat Icon -->
+  <path
+    d="M35 55C35 45 40 40 50 40C60 40 65 45 65 55C65 60 62 62 60 65H40C38 62 35 60 35 55Z"
+    fill="white"
+    stroke="#1E293B"
+    stroke-width="3"
+  />
+  <rect
+    x="40" y="65" width="20" height="8" rx="2"
+    fill="white"
+    stroke="#1E293B"
+    stroke-width="3"
+  />
+  
+  <!-- Tray Line -->
+  <path
+    d="M20 80H80"
+    stroke="#1E293B"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+</svg>
