@@ -1,0 +1,2286 @@
+[
+  {
+    "id": "52767",
+    "id_name": "Tart Bakewell"
+  },
+  {
+    "id": "52768",
+    "id_name": "Tart Frangipan Apel"
+  },
+  {
+    "id": "52770",
+    "id_name": "Spaghetti Bolognese"
+  },
+  {
+    "id": "52776",
+    "id_name": "Gateau Cokelat (Kue Cokelat Perancis)"
+  },
+  {
+    "id": "52781",
+    "id_name": "Semur Irlandia"
+  },
+  {
+    "id": "52786",
+    "id_name": "Fudge Rocky Road"
+  },
+  {
+    "id": "52787",
+    "id_name": "Fudge Cokelat Panas"
+  },
+  {
+    "id": "52788",
+    "id_name": "Flapjack Puding Natal"
+  },
+  {
+    "id": "52791",
+    "id_name": "Eton Mess"
+  },
+  {
+    "id": "52792",
+    "id_name": "Puding Roti dan Mentega"
+  },
+  {
+    "id": "52793",
+    "id_name": "Ultimate Sticky Toffee Pudding"
+  },
+  {
+    "id": "52803",
+    "id_name": "Daging Sapi Wellington"
+  },
+  {
+    "id": "52812",
+    "id_name": "Pot Roast Sandung Lamur Sapi"
+  },
+  {
+    "id": "52824",
+    "id_name": "Roast Sunday Daging Sapi"
+  },
+  {
+    "id": "52826",
+    "id_name": "Chilli Daging Sapi Rebus"
+  },
+  {
+    "id": "52827",
+    "id_name": "Kari Massaman Sapi"
+  },
+  {
+    "id": "52833",
+    "id_name": "Cheesecake Karamel Asin"
+  },
+  {
+    "id": "52834",
+    "id_name": "Daging Sapi Stroganoff"
+  },
+  {
+    "id": "52853",
+    "id_name": "Mousse Alpukat Cokelat"
+  },
+  {
+    "id": "52854",
+    "id_name": "Pancake"
+  },
+  {
+    "id": "52855",
+    "id_name": "Pancake Pisang"
+  },
+  {
+    "id": "52856",
+    "id_name": "Pai Pecan Choc Chip"
+  },
+  {
+    "id": "52857",
+    "id_name": "Pai Labu"
+  },
+  {
+    "id": "52858",
+    "id_name": "Cheesecake New York"
+  },
+  {
+    "id": "52859",
+    "id_name": "Pai Key Lime"
+  },
+  {
+    "id": "52860",
+    "id_name": "Brownies Cokelat Raspberry"
+  },
+  {
+    "id": "52861",
+    "id_name": "Cheesecake Selai Kacang"
+  },
+  {
+    "id": "52862",
+    "id_name": "Grunt Persik & Blueberry"
+  },
+  {
+    "id": "52873",
+    "id_name": "Semur Dumpling Daging Sapi"
+  },
+  {
+    "id": "52874",
+    "id_name": "Pai Daging Sapi dan Mustard"
+  },
+  {
+    "id": "52876",
+    "id_name": "Pai Daging Sapi Cincang"
+  },
+  {
+    "id": "52878",
+    "id_name": "Pai Daging Sapi dan Tiram"
+  },
+  {
+    "id": "52881",
+    "id_name": "Pai Steak dan Ginjal"
+  },
+  {
+    "id": "52883",
+    "id_name": "Puding Toffee Lengket"
+  },
+  {
+    "id": "52886",
+    "id_name": "Spotted Dick (Puding Kukus)"
+  },
+  {
+    "id": "52888",
+    "id_name": "Kue Eccles"
+  },
+  {
+    "id": "52889",
+    "id_name": "Summer Pudding"
+  },
+  {
+    "id": "52890",
+    "id_name": "Jam Roly-Poly"
+  },
+  {
+    "id": "52891",
+    "id_name": "Blackberry Fool (Krim Buah)"
+  },
+  {
+    "id": "52892",
+    "id_name": "Tart Molase"
+  },
+  {
+    "id": "52893",
+    "id_name": "Crumble Apel & Blackberry"
+  },
+  {
+    "id": "52894",
+    "id_name": "Kue Battenberg"
+  },
+  {
+    "id": "52897",
+    "id_name": "Kue Wortel"
+  },
+  {
+    "id": "52898",
+    "id_name": "Roti Chelsea"
+  },
+  {
+    "id": "52899",
+    "id_name": "Kue Dundee"
+  },
+  {
+    "id": "52900",
+    "id_name": "Kue Madeira"
+  },
+  {
+    "id": "52901",
+    "id_name": "Rock Cakes"
+  },
+  {
+    "id": "52902",
+    "id_name": "Kue Parkin"
+  },
+  {
+    "id": "52904",
+    "id_name": "Daging Sapi Bourguignon"
+  },
+  {
+    "id": "52905",
+    "id_name": "Souffle Cokelat"
+  },
+  {
+    "id": "52909",
+    "id_name": "Tarte Tatin"
+  },
+  {
+    "id": "52910",
+    "id_name": "Tart Apel Chinon"
+  },
+  {
+    "id": "52916",
+    "id_name": "Tarte Tatin Pir"
+  },
+  {
+    "id": "52917",
+    "id_name": "Creme Brulee Cokelat Putih"
+  },
+  {
+    "id": "52923",
+    "id_name": "Tart Mentega Kanada"
+  },
+  {
+    "id": "52924",
+    "id_name": "Nanaimo Bars"
+  },
+  {
+    "id": "52927",
+    "id_name": "Daging Sapi Asap Montreal"
+  },
+  {
+    "id": "52928",
+    "id_name": "BeaverTails (Kue Goreng Kanada)"
+  },
+  {
+    "id": "52929",
+    "id_name": "Timbits (Bola Donat Kanada)"
+  },
+  {
+    "id": "52930",
+    "id_name": "Pate Chinois"
+  },
+  {
+    "id": "52931",
+    "id_name": "Pai Gula"
+  },
+  {
+    "id": "52932",
+    "id_name": "Pouding Chomeur"
+  },
+  {
+    "id": "52935",
+    "id_name": "Steak Diane"
+  },
+  {
+    "id": "52938",
+    "id_name": "Patties Daging Sapi Jamaika"
+  },
+  {
+    "id": "52941",
+    "id_name": "Sup Kacang Merah"
+  },
+  {
+    "id": "52943",
+    "id_name": "Buntut Sapi dengan Kacang Lebar"
+  },
+  {
+    "id": "52947",
+    "id_name": "Ma Po Tofu"
+  },
+  {
+    "id": "52950",
+    "id_name": "Daging Sapi Szechuan"
+  },
+  {
+    "id": "52952",
+    "id_name": "Lo Mein Daging Sapi"
+  },
+  {
+    "id": "52958",
+    "id_name": "Kue Kering Selai Kacang"
+  },
+  {
+    "id": "52961",
+    "id_name": "Budino Di Ricotta"
+  },
+  {
+    "id": "52966",
+    "id_name": "Cokelat Karamel Renyah"
+  },
+  {
+    "id": "52970",
+    "id_name": "Kue Jeruk Tunisia"
+  },
+  {
+    "id": "52976",
+    "id_name": "Biskuit Ghoriba Mete"
+  },
+  {
+    "id": "52979",
+    "id_name": "Bitterballen (Bola Daging Belanda)"
+  },
+  {
+    "id": "52988",
+    "id_name": "Puding Natal Klasik"
+  },
+  {
+    "id": "52989",
+    "id_name": "Trifle Puding Natal"
+  },
+  {
+    "id": "52990",
+    "id_name": "Kue Natal"
+  },
+  {
+    "id": "52991",
+    "id_name": "Pai Mince"
+  },
+  {
+    "id": "52992",
+    "id_name": "Meatloaves Glaze Kedelai dengan Kentang Tumbuk Wasabi"
+  },
+  {
+    "id": "52997",
+    "id_name": "Bowl Banh Mi Daging Sapi dengan Mayo Sriracha"
+  },
+  {
+    "id": "52998",
+    "id_name": "Daging Sapi Kornet dan Kubis"
+  },
+  {
+    "id": "53000",
+    "id_name": "Pai Shepherd Sayuran"
+  },
+  {
+    "id": "53005",
+    "id_name": "Pai Strawberry Rhubarb"
+  },
+  {
+    "id": "53006",
+    "id_name": "Moussaka"
+  },
+  {
+    "id": "53007",
+    "id_name": "Cheesecake Yoghurt Madu"
+  },
+  {
+    "id": "53013",
+    "id_name": "Big Mac"
+  },
+  {
+    "id": "53015",
+    "id_name": "Donat Krispy Kreme"
+  },
+  {
+    "id": "53017",
+    "id_name": "Paszteciki (Pasties Polandia)"
+  },
+  {
+    "id": "53021",
+    "id_name": "Golabki (Gulungan Kubis)"
+  },
+  {
+    "id": "53022",
+    "id_name": "Polskie Nalesniki (Pancake Polandia)"
+  },
+  {
+    "id": "53024",
+    "id_name": "Rogaliki (Kue Kering Croissant Polandia)"
+  },
+  {
+    "id": "53029",
+    "id_name": "Mulukhiyah"
+  },
+  {
+    "id": "53031",
+    "id_name": "Fatteh Mesir"
+  },
+  {
+    "id": "53042",
+    "id_name": "Prego Portugis dengan Piri-piri Hijau"
+  },
+  {
+    "id": "53046",
+    "id_name": "Tart Custard Portugis"
+  },
+  {
+    "id": "53049",
+    "id_name": "Apam Balik"
+  },
+  {
+    "id": "53052",
+    "id_name": "Roti John"
+  },
+  {
+    "id": "53053",
+    "id_name": "Rendang Daging Sapi"
+  },
+  {
+    "id": "53054",
+    "id_name": "Seri Muka Kuih"
+  },
+  {
+    "id": "53055",
+    "id_name": "Sosis Cevapi"
+  },
+  {
+    "id": "53056",
+    "id_name": "Peka Domba Kroasia"
+  },
+  {
+    "id": "53057",
+    "id_name": "Goulash Tradisional Kroasia"
+  },
+  {
+    "id": "53058",
+    "id_name": "Semur Kacang Kroasia"
+  },
+  {
+    "id": "53062",
+    "id_name": "Walnut Roll Gužvara"
+  },
+  {
+    "id": "53063",
+    "id_name": "Chivito Uruguay"
+  },
+  {
+    "id": "53068",
+    "id_name": "Mechado Daging Sapi"
+  },
+  {
+    "id": "53069",
+    "id_name": "Bistek"
+  },
+  {
+    "id": "53070",
+    "id_name": "Caldereta Daging Sapi"
+  },
+  {
+    "id": "53071",
+    "id_name": "Asado Daging Sapi"
+  },
+  {
+    "id": "53082",
+    "id_name": "Strawberries Romanoff"
+  },
+  {
+    "id": "53096",
+    "id_name": "Hash Daging Sapi Kornet"
+  },
+  {
+    "id": "53098",
+    "id_name": "Pai Cumberland"
+  },
+  {
+    "id": "53099",
+    "id_name": "Burger Aussie"
+  },
+  {
+    "id": "53100",
+    "id_name": "Friand Blueberry & Lemon"
+  },
+  {
+    "id": "53101",
+    "id_name": "Kotak Kelapa Cokelat"
+  },
+  {
+    "id": "53104",
+    "id_name": "Lamingtons"
+  },
+  {
+    "id": "53109",
+    "id_name": "Pai Daging Sapi Chilli Mini"
+  },
+  {
+    "id": "53111",
+    "id_name": "Biskuit Anzac"
+  },
+  {
+    "id": "53112",
+    "id_name": "Kari Daging Sapi Kenya"
+  },
+  {
+    "id": "53116",
+    "id_name": "Roti Kayu Manis"
+  },
+  {
+    "id": "53119",
+    "id_name": "Tall Skoleboller"
+  },
+  {
+    "id": "53120",
+    "id_name": "Æbleskiver (Pancake Bulat Denmark)"
+  },
+  {
+    "id": "53125",
+    "id_name": "Karbonader (Patties Daging Sapi Kurus)"
+  },
+  {
+    "id": "53126",
+    "id_name": "Brun Lapskaus (Semur Daging Sapi & Sayuran Norwegia)"
+  },
+  {
+    "id": "53127",
+    "id_name": "Kransekake Norwegia Otentik"
+  },
+  {
+    "id": "53128",
+    "id_name": "Kvæfjord Cake “Verdens Beste” (Kue Terbaik Dunia)"
+  },
+  {
+    "id": "53129",
+    "id_name": "Krumkake Norwegia"
+  },
+  {
+    "id": "53130",
+    "id_name": "Suksessterte (Kue Sukses Almon Norwegia)"
+  },
+  {
+    "id": "53131",
+    "id_name": "Fyrstekake – Kue Pangeran Norwegia"
+  },
+  {
+    "id": "53132",
+    "id_name": "Mazariner – Tartlet Almon Skandinavia"
+  },
+  {
+    "id": "53133",
+    "id_name": "Asado"
+  },
+  {
+    "id": "53134",
+    "id_name": "Empanadas"
+  },
+  {
+    "id": "53135",
+    "id_name": "Milanesa"
+  },
+  {
+    "id": "53137",
+    "id_name": "Dulce de Leche"
+  },
+  {
+    "id": "53138",
+    "id_name": "Alfajores (Kue Kering Karamel)"
+  },
+  {
+    "id": "53140",
+    "id_name": "Matambre a la Pizza"
+  },
+  {
+    "id": "53141",
+    "id_name": "Carbonada Criolla"
+  },
+  {
+    "id": "53148",
+    "id_name": "Crema Catalana"
+  },
+  {
+    "id": "53149",
+    "id_name": "Ensaimada"
+  },
+  {
+    "id": "53153",
+    "id_name": "Churros"
+  },
+  {
+    "id": "53163",
+    "id_name": "Bola Ara & Almon Spanyol"
+  },
+  {
+    "id": "53170",
+    "id_name": "Churros Cokelat dengan Saus Karamel Asin"
+  },
+  {
+    "id": "53187",
+    "id_name": "Šúľance s Makom"
+  },
+  {
+    "id": "53193",
+    "id_name": "Drunken Noodles (Pad Kee Mao)"
+  },
+  {
+    "id": "53199",
+    "id_name": "Tumis Daging Sapi Thailand"
+  },
+  {
+    "id": "53211",
+    "id_name": "Semur Daging Sapi Serai dengan Mi"
+  },
+  {
+    "id": "53216",
+    "id_name": "Knafeh"
+  },
+  {
+    "id": "53217",
+    "id_name": "Wrap Shawarma Chuck Roast"
+  },
+  {
+    "id": "53221",
+    "id_name": "Mamoul (Biskuit Lebaran)"
+  },
+  {
+    "id": "53224",
+    "id_name": "Kue Cokelat Kunafa Pistachio dan Cupcakes"
+  },
+  {
+    "id": "53229",
+    "id_name": "Salad Mi Vietnam & Steak"
+  },
+  {
+    "id": "53238",
+    "id_name": "Pho Daging Sapi"
+  },
+  {
+    "id": "53251",
+    "id_name": "Lahmacun Turki"
+  },
+  {
+    "id": "53271",
+    "id_name": "Kue Kenari, Kurma & Madu"
+  },
+  {
+    "id": "53276",
+    "id_name": "Apricot & Turkish Delight Mess"
+  },
+  {
+    "id": "53279",
+    "id_name": "Baklava dengan Kacang Berempah, Ricotta & Cokelat"
+  },
+  {
+    "id": "53281",
+    "id_name": "Kefta Aljazair (Bola Daging)"
+  },
+  {
+    "id": "53285",
+    "id_name": "Dziriat (Tart Almon Aljazair)"
+  },
+  {
+    "id": "53291",
+    "id_name": "Cornes de Gazelle (Tanduk Gazelle)"
+  },
+  {
+    "id": "53292",
+    "id_name": "Piernik (Roti Jahe Polandia)"
+  },
+  {
+    "id": "53293",
+    "id_name": "Kue Pistachio"
+  },
+  {
+    "id": "53295",
+    "id_name": "Kue Cokelat & Kenari Polandia"
+  },
+  {
+    "id": "53298",
+    "id_name": "Donat Polandia (Pączki)"
+  },
+  {
+    "id": "53300",
+    "id_name": "Bigos (Semur Pemburu Polandia)"
+  },
+  {
+    "id": "53303",
+    "id_name": "Mousse Raspberry"
+  },
+  {
+    "id": "53304",
+    "id_name": "Kue Bundt Mini"
+  },
+  {
+    "id": "53311",
+    "id_name": "Borsch"
+  },
+  {
+    "id": "53316",
+    "id_name": "Pancake Bit Merah"
+  },
+  {
+    "id": "53317",
+    "id_name": "Empanada Daging Sapi"
+  },
+  {
+    "id": "53319",
+    "id_name": "Sandwich Chivito"
+  },
+  {
+    "id": "53320",
+    "id_name": "Alfajores Cokelat"
+  },
+  {
+    "id": "53321",
+    "id_name": "Alfajores Vanila"
+  },
+  {
+    "id": "53322",
+    "id_name": "Flan"
+  },
+  {
+    "id": "53323",
+    "id_name": "Postre Chajá"
+  },
+  {
+    "id": "53324",
+    "id_name": "Empanada Cokelat"
+  },
+  {
+    "id": "53326",
+    "id_name": "Sancocho Venezuela"
+  },
+  {
+    "id": "53328",
+    "id_name": "Daging Sapi Suwir Venezuela"
+  },
+  {
+    "id": "53329",
+    "id_name": "Arepa Pelua"
+  },
+  {
+    "id": "53333",
+    "id_name": "Mousse Markisa"
+  },
+  {
+    "id": "53334",
+    "id_name": "Arepa Pabellón"
+  },
+  {
+    "id": "53335",
+    "id_name": "Jiggs Dinner"
+  },
+  {
+    "id": "53337",
+    "id_name": "Pai Saskatoon"
+  },
+  {
+    "id": "53338",
+    "id_name": "Kotak Kurma"
+  },
+  {
+    "id": "53339",
+    "id_name": "Kue Kering Selai"
+  },
+  {
+    "id": "53341",
+    "id_name": "Pai Flapper"
+  },
+  {
+    "id": "53342",
+    "id_name": "Figgy Duff"
+  },
+  {
+    "id": "53343",
+    "id_name": "Tourtière Klasik"
+  },
+  {
+    "id": "53344",
+    "id_name": "Puding Ubi Manis Jamaika"
+  },
+  {
+    "id": "53346",
+    "id_name": "Es Krim Grape Nut"
+  },
+  {
+    "id": "53347",
+    "id_name": "Es Krim Rum Raisin Tanpa Mesin"
+  },
+  {
+    "id": "53348",
+    "id_name": "Resep Roti Rempah Jamaika"
+  },
+  {
+    "id": "53350",
+    "id_name": "Daging Sapi Kornet dan Kubis – Gaya Jamaika"
+  },
+  {
+    "id": "53351",
+    "id_name": "Fritter Pisang Jamaika"
+  },
+  {
+    "id": "53359",
+    "id_name": "Mandi Daging Sapi"
+  },
+  {
+    "id": "53360",
+    "id_name": "Bola Asam Jawa Karibia"
+  },
+  {
+    "id": "53366",
+    "id_name": "Tumis Daging Sapi dan Brokoli"
+  },
+  {
+    "id": "53380",
+    "id_name": "Kue Apel"
+  },
+  {
+    "id": "53381",
+    "id_name": "Gevulde Speculaas"
+  },
+  {
+    "id": "53382",
+    "id_name": "Stroopwafel Belanda"
+  },
+  {
+    "id": "52829",
+    "id_name": "Sandwich Mac and Cheese Panggang"
+  },
+  {
+    "id": "52835",
+    "id_name": "Fettucine Alfredo"
+  },
+  {
+    "id": "52837",
+    "id_name": "Pilchard Puttanesca"
+  },
+  {
+    "id": "52839",
+    "id_name": "Linguine Udang Chilli"
+  },
+  {
+    "id": "52844",
+    "id_name": "Lasagne"
+  },
+  {
+    "id": "52903",
+    "id_name": "Sup Bawang Perancis"
+  },
+  {
+    "id": "52913",
+    "id_name": "Brie dibungkus Prosciutto & Brioche"
+  },
+  {
+    "id": "52914",
+    "id_name": "Kentang Boulangère"
+  },
+  {
+    "id": "52919",
+    "id_name": "Adas Dauphinoise"
+  },
+  {
+    "id": "52922",
+    "id_name": "Bisque Udang & Adas"
+  },
+  {
+    "id": "52925",
+    "id_name": "Sup Kacang Polong"
+  },
+  {
+    "id": "52977",
+    "id_name": "Corba"
+  },
+  {
+    "id": "52978",
+    "id_name": "Kumpir"
+  },
+  {
+    "id": "52981",
+    "id_name": "Snert (Sup Kacang Polong Belanda)"
+  },
+  {
+    "id": "52982",
+    "id_name": "Spaghetti alla Carbonara"
+  },
+  {
+    "id": "52987",
+    "id_name": "Sandwich Lasagna"
+  },
+  {
+    "id": "53019",
+    "id_name": "Pierogi (Pangsit Polandia)"
+  },
+  {
+    "id": "53030",
+    "id_name": "Feteer Meshaltet"
+  },
+  {
+    "id": "53033",
+    "id_name": "Nasi Gohan Jepang"
+  },
+  {
+    "id": "53038",
+    "id_name": "Mustard Champ"
+  },
+  {
+    "id": "53059",
+    "id_name": "Sup Jamur dengan Gandum Hitam"
+  },
+  {
+    "id": "53060",
+    "id_name": "Burek"
+  },
+  {
+    "id": "53061",
+    "id_name": "Sarden Segar"
+  },
+  {
+    "id": "53064",
+    "id_name": "Fettuccine Alfredo"
+  },
+  {
+    "id": "53080",
+    "id_name": "Pancake Blini"
+  },
+  {
+    "id": "53094",
+    "id_name": "Baba Ghanoush"
+  },
+  {
+    "id": "53121",
+    "id_name": "Potato Lefse Norwegia"
+  },
+  {
+    "id": "53139",
+    "id_name": "Fainá"
+  },
+  {
+    "id": "53189",
+    "id_name": "Zemiakové Placky"
+  },
+  {
+    "id": "53226",
+    "id_name": "Roti Shawarma"
+  },
+  {
+    "id": "53256",
+    "id_name": "Cacik"
+  },
+  {
+    "id": "53259",
+    "id_name": "Purée Terong Asap"
+  },
+  {
+    "id": "53269",
+    "id_name": "Hummus"
+  },
+  {
+    "id": "53272",
+    "id_name": "Flatbread Panggang"
+  },
+  {
+    "id": "53282",
+    "id_name": "Wortel Aljazair"
+  },
+  {
+    "id": "53284",
+    "id_name": "Roti Berber Bouzgene Aljazair dengan Saus Paprika Panggang"
+  },
+  {
+    "id": "53286",
+    "id_name": "Khobz el Dar (Roti Semolina Aljazair)"
+  },
+  {
+    "id": "53299",
+    "id_name": "Patties Polandia (Kotlety)"
+  },
+  {
+    "id": "53308",
+    "id_name": "Roti Gandum Hitam"
+  },
+  {
+    "id": "53310",
+    "id_name": "Challah"
+  },
+  {
+    "id": "53325",
+    "id_name": "Arepas Venezuela"
+  },
+  {
+    "id": "53332",
+    "id_name": "Turnover Venezuela"
+  },
+  {
+    "id": "53353",
+    "id_name": "Pangsit Rebus Jamaika"
+  },
+  {
+    "id": "53355",
+    "id_name": "Jamaican Festival (Pangsit Manis)"
+  },
+  {
+    "id": "53356",
+    "id_name": "Pangsit Goreng Jamaika"
+  },
+  {
+    "id": "53361",
+    "id_name": "Callaloo dan Ikan Asin"
+  },
+  {
+    "id": "53364",
+    "id_name": "Kubis Kukus Jamaika"
+  },
+  {
+    "id": "53373",
+    "id_name": "Egg Roll Air Fryer"
+  },
+  {
+    "id": "53378",
+    "id_name": "Salad Timun Wijen"
+  },
+  {
+    "id": "52764",
+    "id_name": "Garides Saganaki"
+  },
+  {
+    "id": "52773",
+    "id_name": "Salmon Teriyaki Madu"
+  },
+  {
+    "id": "52775",
+    "id_name": "Lasagna Vegan"
+  },
+  {
+    "id": "52777",
+    "id_name": "Salad Pasta Mediterania"
+  },
+  {
+    "id": "52794",
+    "id_name": "Kue Cokelat Vegan"
+  },
+  {
+    "id": "52802",
+    "id_name": "Pai Ikan"
+  },
+  {
+    "id": "52809",
+    "id_name": "Ikan Masala Recheado"
+  },
+  {
+    "id": "52819",
+    "id_name": "Taco Ikan Berbumbu Cajun"
+  },
+  {
+    "id": "52821",
+    "id_name": "Mi Laksa Udang Raja"
+  },
+  {
+    "id": "52822",
+    "id_name": "Toad In The Hole (Sosis dalam Puding)"
+  },
+  {
+    "id": "52823",
+    "id_name": "Risotto Udang Salmon"
+  },
+  {
+    "id": "52828",
+    "id_name": "Babi Panggang Vietnam (bun-thit-nuong)"
+  },
+  {
+    "id": "52836",
+    "id_name": "Fideuà Seafood"
+  },
+  {
+    "id": "52838",
+    "id_name": "Ragu Bebek Venesia"
+  },
+  {
+    "id": "52847",
+    "id_name": "Cassoulet Babi"
+  },
+  {
+    "id": "52852",
+    "id_name": "Tuna Nicoise"
+  },
+  {
+    "id": "52882",
+    "id_name": "Pai Tiga Ikan"
+  },
+  {
+    "id": "52885",
+    "id_name": "Bubble & Squeak (Tumis Sayuran Inggris)"
+  },
+  {
+    "id": "52887",
+    "id_name": "Kedgeree"
+  },
+  {
+    "id": "52918",
+    "id_name": "Semur Ikan dengan Rouille"
+  },
+  {
+    "id": "52926",
+    "id_name": "Tourtiere"
+  },
+  {
+    "id": "52936",
+    "id_name": "Ikan Asin dan Ackee"
+  },
+  {
+    "id": "52942",
+    "id_name": "Paella Adas Panggang dan Terong"
+  },
+  {
+    "id": "52944",
+    "id_name": "Ikan Escovitch"
+  },
+  {
+    "id": "52946",
+    "id_name": "Udang Kung Po"
+  },
+  {
+    "id": "52948",
+    "id_name": "Wonton"
+  },
+  {
+    "id": "52949",
+    "id_name": "Babi Asam Manis"
+  },
+  {
+    "id": "52953",
+    "id_name": "Shrimp Chow Fun"
+  },
+  {
+    "id": "52954",
+    "id_name": "Sup Asam Pedas"
+  },
+  {
+    "id": "52959",
+    "id_name": "Salmon Panggang dengan Adas & Tomat"
+  },
+  {
+    "id": "52960",
+    "id_name": "Salad Alpukat Salmon"
+  },
+  {
+    "id": "52975",
+    "id_name": "Brik Tuna dan Telur"
+  },
+  {
+    "id": "52980",
+    "id_name": "Stamppot"
+  },
+  {
+    "id": "52994",
+    "id_name": "Pork Chops Apel Skillet dengan Kentang Manis & Zucchini"
+  },
+  {
+    "id": "52995",
+    "id_name": "Sloppy Joes Babi BBQ"
+  },
+  {
+    "id": "52999",
+    "id_name": "Sosis Renyah dan Sayuran Hijau"
+  },
+  {
+    "id": "53018",
+    "id_name": "Bigos (Semur Hunter)"
+  },
+  {
+    "id": "53023",
+    "id_name": "Sledz w Oleju (Ikan Haring Polandia)"
+  },
+  {
+    "id": "53032",
+    "id_name": "Babi Tonkatsu"
+  },
+  {
+    "id": "53034",
+    "id_name": "Katsudon Jepang"
+  },
+  {
+    "id": "53035",
+    "id_name": "Ham Hock Colcannon"
+  },
+  {
+    "id": "53036",
+    "id_name": "Sarapan Boxty"
+  },
+  {
+    "id": "53037",
+    "id_name": "Babi Coddled dengan Cider"
+  },
+  {
+    "id": "53040",
+    "id_name": "Empanada Daun Bawang dan Udang"
+  },
+  {
+    "id": "53041",
+    "id_name": "Sarden Portugis Panggang"
+  },
+  {
+    "id": "53043",
+    "id_name": "Fofos Ikan"
+  },
+  {
+    "id": "53044",
+    "id_name": "Babi Panggang Portugis (Febras assadas)"
+  },
+  {
+    "id": "53045",
+    "id_name": "Semur Ikan Portugis (Caldeirada de peixe)"
+  },
+  {
+    "id": "53048",
+    "id_name": "Mie Goreng Mamak"
+  },
+  {
+    "id": "53051",
+    "id_name": "Nasi Lemak"
+  },
+  {
+    "id": "53065",
+    "id_name": "Sushi"
+  },
+  {
+    "id": "53079",
+    "id_name": "Sup Ikan (Ukha)"
+  },
+  {
+    "id": "53092",
+    "id_name": "Fasoliyyeh Bi Z-Zayt (Buncis Suriah dengan Minyak Zaitun)"
+  },
+  {
+    "id": "53093",
+    "id_name": "Spaghetti Suriah"
+  },
+  {
+    "id": "53102",
+    "id_name": "Salad Cumi, Kacang Arab & Chorizo"
+  },
+  {
+    "id": "53103",
+    "id_name": "Barramundi dengan Rempah Maroko"
+  },
+  {
+    "id": "53106",
+    "id_name": "Salad Asparagus Panggang Hangat"
+  },
+  {
+    "id": "53108",
+    "id_name": "Cumi Garam & Merica Cepat"
+  },
+  {
+    "id": "53115",
+    "id_name": "Acar Bawang Merah"
+  },
+  {
+    "id": "53122",
+    "id_name": "Fiskesuppe (Sup Ikan Norwegia yang Creamy)"
+  },
+  {
+    "id": "53124",
+    "id_name": "Raspeballer (Pangsit Kentang Norwegia)"
+  },
+  {
+    "id": "53136",
+    "id_name": "Choripán"
+  },
+  {
+    "id": "53144",
+    "id_name": "Gambas al ajillo"
+  },
+  {
+    "id": "53145",
+    "id_name": "Jamon & Croquetas Bawang Liar"
+  },
+  {
+    "id": "53147",
+    "id_name": "Arroz con gambas y calamar"
+  },
+  {
+    "id": "53150",
+    "id_name": "Cabai Padron"
+  },
+  {
+    "id": "53151",
+    "id_name": "Paella"
+  },
+  {
+    "id": "53152",
+    "id_name": "Hake Panggang Wajan, Kaldu Kacang Putih & Chorizo"
+  },
+  {
+    "id": "53154",
+    "id_name": "Semur Kerang, Chorizo & Kacang Putih"
+  },
+  {
+    "id": "53156",
+    "id_name": "Arroz al horno (Nasi Panggang Spanyol)"
+  },
+  {
+    "id": "53157",
+    "id_name": "Salad Chorizo & Telur Setengah Matang"
+  },
+  {
+    "id": "53159",
+    "id_name": "Omelet Chorizo, Kentang & Keju"
+  },
+  {
+    "id": "53166",
+    "id_name": "Semur Kacang Arab, Chorizo & Bayam"
+  },
+  {
+    "id": "53167",
+    "id_name": "Nasi Seafood"
+  },
+  {
+    "id": "53168",
+    "id_name": "Sup Chorizo & Kacang Arab"
+  },
+  {
+    "id": "53171",
+    "id_name": "Tortilla Ikan Kod Asin"
+  },
+  {
+    "id": "53174",
+    "id_name": "Udang dengan Saus Romesco"
+  },
+  {
+    "id": "53176",
+    "id_name": "Roti Tomat Spanyol dengan Jamón Serrano"
+  },
+  {
+    "id": "53177",
+    "id_name": "Spaghetti dengan Rasa Spanyol"
+  },
+  {
+    "id": "53178",
+    "id_name": "Cumi Goreng"
+  },
+  {
+    "id": "53179",
+    "id_name": "Ham Croquetas"
+  },
+  {
+    "id": "53180",
+    "id_name": "Udang Bawang Putih dengan Sherry"
+  },
+  {
+    "id": "53182",
+    "id_name": "Nasi Seafood Spanyol"
+  },
+  {
+    "id": "53184",
+    "id_name": "Nasi Spanyol & Udang Satu Panci"
+  },
+  {
+    "id": "53185",
+    "id_name": "Salad Chorizo & Tomat"
+  },
+  {
+    "id": "53188",
+    "id_name": "Fašírky"
+  },
+  {
+    "id": "53190",
+    "id_name": "Bryndzové Halušky"
+  },
+  {
+    "id": "53191",
+    "id_name": "Pad Thai"
+  },
+  {
+    "id": "53194",
+    "id_name": "Sup Tom Yum dengan Udang"
+  },
+  {
+    "id": "53195",
+    "id_name": "Sup Mi Kari Thailand"
+  },
+  {
+    "id": "53196",
+    "id_name": "Sup Tom Yum (Asam Pedas) dengan Udang"
+  },
+  {
+    "id": "53197",
+    "id_name": "Kari Babi & Kacang Thailand"
+  },
+  {
+    "id": "53198",
+    "id_name": "Nasi Goreng Thailand dengan Udang & Kacang Polong"
+  },
+  {
+    "id": "53200",
+    "id_name": "Tumis Udang"
+  },
+  {
+    "id": "53202",
+    "id_name": "Ikan Kukus Gaya Thailand"
+  },
+  {
+    "id": "53205",
+    "id_name": "Kari Udang Thailand"
+  },
+  {
+    "id": "53209",
+    "id_name": "Mi Udang Thailand Pedas"
+  },
+  {
+    "id": "53213",
+    "id_name": "Kaldu Ikan Gaya Thailand dengan Sayuran Hijau"
+  },
+  {
+    "id": "53227",
+    "id_name": "Pangsit Kertas Beras"
+  },
+  {
+    "id": "53228",
+    "id_name": "Trout Karamel Vietnam"
+  },
+  {
+    "id": "53233",
+    "id_name": "Cumi Garam & Merica"
+  },
+  {
+    "id": "53234",
+    "id_name": "Sup Mi Salmon"
+  },
+  {
+    "id": "53235",
+    "id_name": "Babi Karamel Gaya Vietnam"
+  },
+  {
+    "id": "53237",
+    "id_name": "Salad Babi Vietnam"
+  },
+  {
+    "id": "53239",
+    "id_name": "Salad Udang Bang Bang"
+  },
+  {
+    "id": "53242",
+    "id_name": "Bakpao Babi Barbecue"
+  },
+  {
+    "id": "53243",
+    "id_name": "Vietnamese Prawn Spiralized Rolls"
+  },
+  {
+    "id": "53244",
+    "id_name": "Salad Udang & Mi dengan Shallot Renyah"
+  },
+  {
+    "id": "53245",
+    "id_name": "Noodle Bowl Salad"
+  },
+  {
+    "id": "53247",
+    "id_name": "Sea Bass dengan Jahe Sizzled, Cabai & Daun Bawang"
+  },
+  {
+    "id": "53248",
+    "id_name": "Wrap Mi Salmon"
+  },
+  {
+    "id": "53250",
+    "id_name": "Banh mi Vegan"
+  },
+  {
+    "id": "53294",
+    "id_name": "Zapiekanki"
+  },
+  {
+    "id": "53301",
+    "id_name": "Goulash Babi & Sauerkraut"
+  },
+  {
+    "id": "53302",
+    "id_name": "Ham Panggang Lambat dengan Lemon, Bawang Putih & Sage"
+  },
+  {
+    "id": "53306",
+    "id_name": "Bortsch Iga Babi"
+  },
+  {
+    "id": "53315",
+    "id_name": "Kubis Merah Rebus Rosemary dengan Kabanos"
+  },
+  {
+    "id": "53318",
+    "id_name": "Torta de fiambre"
+  },
+  {
+    "id": "53330",
+    "id_name": "Pizza Singkong"
+  },
+  {
+    "id": "53349",
+    "id_name": "Udang Lada Jamaika"
+  },
+  {
+    "id": "53362",
+    "id_name": "Resep Udang Kari Jamaika"
+  },
+  {
+    "id": "53368",
+    "id_name": "Mi Singapura dengan Udang"
+  },
+  {
+    "id": "53370",
+    "id_name": "Egg Foo Young (Fuyunghai)"
+  },
+  {
+    "id": "53375",
+    "id_name": "Udang dengan Kacang Kapri"
+  },
+  {
+    "id": "53377",
+    "id_name": "Kubis Napa dengan Udang Kering"
+  },
+  {
+    "id": "52765",
+    "id_name": "Casserole Enchilada Ayam"
+  },
+  {
+    "id": "52771",
+    "id_name": "Penne Arrabiata Pedas"
+  },
+  {
+    "id": "52772",
+    "id_name": "Casserole Ayam Teriyaki"
+  },
+  {
+    "id": "52774",
+    "id_name": "Pad See Ew"
+  },
+  {
+    "id": "52779",
+    "id_name": "Tart Keju Krim"
+  },
+  {
+    "id": "52780",
+    "id_name": "Gratin Kentang dengan Ayam"
+  },
+  {
+    "id": "52784",
+    "id_name": "Chili Lensa Berasap dengan Labu"
+  },
+  {
+    "id": "52785",
+    "id_name": "Dal Fry"
+  },
+  {
+    "id": "52795",
+    "id_name": "Handi Ayam"
+  },
+  {
+    "id": "52796",
+    "id_name": "Chicken Alfredo Primavera"
+  },
+  {
+    "id": "52797",
+    "id_name": "Salad Kentang Afrika Utara yang Pedas"
+  },
+  {
+    "id": "52804",
+    "id_name": "Poutine"
+  },
+  {
+    "id": "52806",
+    "id_name": "Ayam Tandoori"
+  },
+  {
+    "id": "52807",
+    "id_name": "Baingan Bharta"
+  },
+  {
+    "id": "52810",
+    "id_name": "Osso Buco alla Milanese"
+  },
+  {
+    "id": "52811",
+    "id_name": "Ribollita"
+  },
+  {
+    "id": "52813",
+    "id_name": "Ayam Goreng Kentucky"
+  },
+  {
+    "id": "52814",
+    "id_name": "Kari Hijau Thailand"
+  },
+  {
+    "id": "52815",
+    "id_name": "Lensa Perancis dengan Bawang Putih dan Thyme"
+  },
+  {
+    "id": "52816",
+    "id_name": "Terong Panggang dengan Tahini, Kacang Pinus, dan Lensa"
+  },
+  {
+    "id": "52817",
+    "id_name": "Terong Stovetop dengan Harissa, Kacang Arab, dan Yoghurt Jintan"
+  },
+  {
+    "id": "52818",
+    "id_name": "Mac and Cheese Fajita Ayam"
+  },
+  {
+    "id": "52820",
+    "id_name": "Kari Ayam Katsu"
+  },
+  {
+    "id": "52830",
+    "id_name": "Taco Panggang Ayam Crock Pot"
+  },
+  {
+    "id": "52831",
+    "id_name": "Ayam Karaage"
+  },
+  {
+    "id": "52832",
+    "id_name": "Coq au vin (Ayam Masak Anggur)"
+  },
+  {
+    "id": "52840",
+    "id_name": "Clam Chowder"
+  },
+  {
+    "id": "52841",
+    "id_name": "Sup Tomat Creamy"
+  },
+  {
+    "id": "52842",
+    "id_name": "Sup Brokoli & Stilton"
+  },
+  {
+    "id": "52845",
+    "id_name": "Meatloaf Kalkun"
+  },
+  {
+    "id": "52846",
+    "id_name": "Hotpot Ayam & Jamur"
+  },
+  {
+    "id": "52848",
+    "id_name": "Hotpot Kacang & Sosis"
+  },
+  {
+    "id": "52849",
+    "id_name": "Cannelloni Bayam & Ricotta"
+  },
+  {
+    "id": "52850",
+    "id_name": "Couscous Ayam"
+  },
+  {
+    "id": "52851",
+    "id_name": "Kari Ayam Kacang"
+  },
+  {
+    "id": "52863",
+    "id_name": "Casserole Sayuran"
+  },
+  {
+    "id": "52864",
+    "id_name": "Rotolo Jamur & Kenari"
+  },
+  {
+    "id": "52865",
+    "id_name": "Matar Paneer"
+  },
+  {
+    "id": "52866",
+    "id_name": "Linguine Labu"
+  },
+  {
+    "id": "52867",
+    "id_name": "Chili Sayuran"
+  },
+  {
+    "id": "52868",
+    "id_name": "Kari Kacang Merah"
+  },
+  {
+    "id": "52869",
+    "id_name": "Lensa Tahini"
+  },
+  {
+    "id": "52870",
+    "id_name": "Fajitas Kacang Arab"
+  },
+  {
+    "id": "52871",
+    "id_name": "Yaki Udon"
+  },
+  {
+    "id": "52872",
+    "id_name": "Tortilla Spanyol"
+  },
+  {
+    "id": "52875",
+    "id_name": "Pai Ayam, Ham, dan Daun Bawang"
+  },
+  {
+    "id": "52879",
+    "id_name": "Ayam Parmentier"
+  },
+  {
+    "id": "52895",
+    "id_name": "Sarapan Inggris (English Breakfast)"
+  },
+  {
+    "id": "52896",
+    "id_name": "Full English Breakfast"
+  },
+  {
+    "id": "52906",
+    "id_name": "Flamiche"
+  },
+  {
+    "id": "52907",
+    "id_name": "Duck Confit (Bebek Masak Lemak)"
+  },
+  {
+    "id": "52908",
+    "id_name": "Ratatouille"
+  },
+  {
+    "id": "52911",
+    "id_name": "Pistou Musim Panas"
+  },
+  {
+    "id": "52912",
+    "id_name": "Souffle Tiga Keju"
+  },
+  {
+    "id": "52915",
+    "id_name": "Omelet Perancis"
+  },
+  {
+    "id": "52920",
+    "id_name": "Ayam Marengo"
+  },
+  {
+    "id": "52921",
+    "id_name": "Kue Omelet Provençal"
+  },
+  {
+    "id": "52933",
+    "id_name": "Rappie Pie"
+  },
+  {
+    "id": "52934",
+    "id_name": "Ayam Basquaise"
+  },
+  {
+    "id": "52937",
+    "id_name": "Ayam Jerk dengan Nasi & Kacang"
+  },
+  {
+    "id": "52939",
+    "id_name": "Callaloo Gaya Jamaika"
+  },
+  {
+    "id": "52940",
+    "id_name": "Ayam Semur Cokelat"
+  },
+  {
+    "id": "52945",
+    "id_name": "Ayam Kung Pao"
+  },
+  {
+    "id": "52951",
+    "id_name": "Ayam Jenderal Tso"
+  },
+  {
+    "id": "52955",
+    "id_name": "Sup Telur (Egg Drop Soup)"
+  },
+  {
+    "id": "52956",
+    "id_name": "Bubur Ayam"
+  },
+  {
+    "id": "52957",
+    "id_name": "Pastry Sarapan Keju Krim dan Buah"
+  },
+  {
+    "id": "52962",
+    "id_name": "Salmon Eggs Benedict"
+  },
+  {
+    "id": "52963",
+    "id_name": "Shakshuka"
+  },
+  {
+    "id": "52964",
+    "id_name": "Kedgeree Haddock Asap"
+  },
+  {
+    "id": "52965",
+    "id_name": "Kentang Sarapan"
+  },
+  {
+    "id": "52967",
+    "id_name": "Mandazi Buatan Sendiri"
+  },
+  {
+    "id": "52969",
+    "id_name": "Chakchouka"
+  },
+  {
+    "id": "52971",
+    "id_name": "Kafteji"
+  },
+  {
+    "id": "52973",
+    "id_name": "Sup Leblebi"
+  },
+  {
+    "id": "52993",
+    "id_name": "Ayam Madu Balsamik dengan Brokoli & Kentang Renyah"
+  },
+  {
+    "id": "52996",
+    "id_name": "Ayam Bawang Perancis dengan Wortel Panggang & Kentang Tumbuk"
+  },
+  {
+    "id": "53011",
+    "id_name": "Salad Yunani Quinoa Ayam"
+  },
+  {
+    "id": "53012",
+    "id_name": "Gigantes Plaki"
+  },
+  {
+    "id": "53014",
+    "id_name": "Pizza Express Margherita"
+  },
+  {
+    "id": "53016",
+    "id_name": "Sandwich Chick-Fil-A"
+  },
+  {
+    "id": "53020",
+    "id_name": "Rosol (Sup Ayam Polandia)"
+  },
+  {
+    "id": "53025",
+    "id_name": "Ful Medames"
+  },
+  {
+    "id": "53026",
+    "id_name": "Tamiya"
+  },
+  {
+    "id": "53027",
+    "id_name": "Koshari"
+  },
+  {
+    "id": "53028",
+    "id_name": "Shawarma"
+  },
+  {
+    "id": "53039",
+    "id_name": "Ayam Piri-piri dan Slaw"
+  },
+  {
+    "id": "53047",
+    "id_name": "Sup Wortel Maroko"
+  },
+  {
+    "id": "53050",
+    "id_name": "Ayam Percik"
+  },
+  {
+    "id": "53067",
+    "id_name": "Paprika Isi dengan Quinoa dan Kacang Hitam"
+  },
+  {
+    "id": "53072",
+    "id_name": "Terong Renyah"
+  },
+  {
+    "id": "53073",
+    "id_name": "Adobo Terong"
+  },
+  {
+    "id": "53074",
+    "id_name": "Terong Panggang dengan Santan"
+  },
+  {
+    "id": "53075",
+    "id_name": "Tortang Talong"
+  },
+  {
+    "id": "53076",
+    "id_name": "Omelet Roti"
+  },
+  {
+    "id": "53077",
+    "id_name": "Sup Kubis (Shchi)"
+  },
+  {
+    "id": "53078",
+    "id_name": "Sup Bit (Borscht)"
+  },
+  {
+    "id": "53081",
+    "id_name": "Salad Kentang (Salad Olivier)"
+  },
+  {
+    "id": "53085",
+    "id_name": "Burger Ayam & Halloumi 15 Menit"
+  },
+  {
+    "id": "53086",
+    "id_name": "Migas"
+  },
+  {
+    "id": "53089",
+    "id_name": "Roti Suriah"
+  },
+  {
+    "id": "53091",
+    "id_name": "Sandwich Pita Falafel dengan Saus Tahini"
+  },
+  {
+    "id": "53095",
+    "id_name": "Nasi Suriah dengan Daging"
+  },
+  {
+    "id": "53097",
+    "id_name": "Puding Yorkshire"
+  },
+  {
+    "id": "53105",
+    "id_name": "Ayam Barbecue Berempah Berasap"
+  },
+  {
+    "id": "53107",
+    "id_name": "Saus Alpukat dengan Kentang Muda"
+  },
+  {
+    "id": "53110",
+    "id_name": "Ayam Lengket (Sticky Chicken)"
+  },
+  {
+    "id": "53113",
+    "id_name": "Sukuma Wiki"
+  },
+  {
+    "id": "53114",
+    "id_name": "Ugali – Cornmeal Kenya"
+  },
+  {
+    "id": "53117",
+    "id_name": "Smørrebrød Nordik dengan Asparagus dan Krim Horseradish"
+  },
+  {
+    "id": "53118",
+    "id_name": "Rømmegrøt – Bubur Krim Asam Norwegia"
+  },
+  {
+    "id": "53123",
+    "id_name": "Fårikål (Menu Nasional Norwegia)"
+  },
+  {
+    "id": "53142",
+    "id_name": "Tortilla Berempah"
+  },
+  {
+    "id": "53143",
+    "id_name": "Ayam Spanyol Mudah"
+  },
+  {
+    "id": "53146",
+    "id_name": "Locro"
+  },
+  {
+    "id": "53155",
+    "id_name": "Pai Ayam Spanyol"
+  },
+  {
+    "id": "53158",
+    "id_name": "Patatas Bravas Air Fryer"
+  },
+  {
+    "id": "53160",
+    "id_name": "Pisto con huevos"
+  },
+  {
+    "id": "53161",
+    "id_name": "Nasi Pot Ayam & Chorizo"
+  },
+  {
+    "id": "53162",
+    "id_name": "Pollo en pepitoria"
+  },
+  {
+    "id": "53164",
+    "id_name": "Ayam Spanyol"
+  },
+  {
+    "id": "53165",
+    "id_name": "Torrijas dengan Sherry"
+  },
+  {
+    "id": "53169",
+    "id_name": "Ajo Blanco"
+  },
+  {
+    "id": "53172",
+    "id_name": "Patatas Bravas"
+  },
+  {
+    "id": "53173",
+    "id_name": "Gazpacho Cepat"
+  },
+  {
+    "id": "53181",
+    "id_name": "Kacang Spanyol dengan Ayam & Chorizo"
+  },
+  {
+    "id": "53183",
+    "id_name": "Bola Daging Spanyol dengan Kerang, Chorizo & Cumi"
+  },
+  {
+    "id": "53186",
+    "id_name": "Ayam dengan Saffron, Kismis & Kacang Pinus"
+  },
+  {
+    "id": "53192",
+    "id_name": "Kari Ayam Panang (Kaeng Panang Gai)"
+  },
+  {
+    "id": "53201",
+    "id_name": "Tumis Ayam dengan Cabai & Kemangi"
+  },
+  {
+    "id": "53203",
+    "id_name": "Salad Mi Beras Thailand"
+  },
+  {
+    "id": "53204",
+    "id_name": "Kebab Ayam Kari Merah"
+  },
+  {
+    "id": "53206",
+    "id_name": "Kue Ayam Thailand dengan Saus Cabai Manis"
+  },
+  {
+    "id": "53207",
+    "id_name": "Tom Kha Gai"
+  },
+  {
+    "id": "53208",
+    "id_name": "Kaldu Kelapa & Sayuran Thailand"
+  },
+  {
+    "id": "53210",
+    "id_name": "Sup Labu Thailand"
+  },
+  {
+    "id": "53212",
+    "id_name": "Paha Ayam Thailand"
+  },
+  {
+    "id": "53214",
+    "id_name": "Sup Ayam Hijau Thailand"
+  },
+  {
+    "id": "53215",
+    "id_name": "Shakshouka"
+  },
+  {
+    "id": "53218",
+    "id_name": "Shawarma Ayam dengan Saus Yoghurt Herba Bawang Putih"
+  },
+  {
+    "id": "53219",
+    "id_name": "Shakshuka Keju Feta"
+  },
+  {
+    "id": "53220",
+    "id_name": "Kabsa"
+  },
+  {
+    "id": "53222",
+    "id_name": "Shakshuka Sayuran"
+  },
+  {
+    "id": "53223",
+    "id_name": "Mutabbaq"
+  },
+  {
+    "id": "53225",
+    "id_name": "Lahsa Yaman (Elite Shakshuka)"
+  },
+  {
+    "id": "53230",
+    "id_name": "Tempura Brokoli Ungu dengan Nuoc Cham"
+  },
+  {
+    "id": "53232",
+    "id_name": "Salad Ayam Vietnam"
+  },
+  {
+    "id": "53236",
+    "id_name": "Hotpot Sayuran Gaya Vietnam"
+  },
+  {
+    "id": "53240",
+    "id_name": "Tumis Tahu, Sayuran & Mete"
+  },
+  {
+    "id": "53241",
+    "id_name": "Parsel Sayuran Vietnam"
+  },
+  {
+    "id": "53246",
+    "id_name": "Salad Wortel, Kubis & Bawang yang Tajam"
+  },
+  {
+    "id": "53249",
+    "id_name": "Bánh mì Kalkun"
+  },
+  {
+    "id": "53252",
+    "id_name": "Nasi Turki (Nasi Vermicelli)"
+  },
+  {
+    "id": "53254",
+    "id_name": "Ezme"
+  },
+  {
+    "id": "53255",
+    "id_name": "Terong Panggang dengan Kacang Arab Pedas & Saus Kenari"
+  },
+  {
+    "id": "53261",
+    "id_name": "Sayap Ayam dengan Jintan, Lemon & Bawang Putih"
+  },
+  {
+    "id": "53262",
+    "id_name": "Adana Kebab"
+  },
+  {
+    "id": "53264",
+    "id_name": "Sate Ayam Berasap"
+  },
+  {
+    "id": "53265",
+    "id_name": "Iga Domba Jahe Cabai"
+  },
+  {
+    "id": "53266",
+    "id_name": "Falafel"
+  },
+  {
+    "id": "53267",
+    "id_name": "Salad Couscous Terong"
+  },
+  {
+    "id": "53268",
+    "id_name": "Ayam Panggang dengan Saus Kenari Creamy"
+  },
+  {
+    "id": "53273",
+    "id_name": "Terong Panggang dengan Keju Kambing & Flatbread"
+  },
+  {
+    "id": "53274",
+    "id_name": "Terong Panggang dengan Saus Wijen"
+  },
+  {
+    "id": "53275",
+    "id_name": "Salad Ubi Manis"
+  },
+  {
+    "id": "53278",
+    "id_name": "Panggangan Terong & Hummus"
+  },
+  {
+    "id": "53280",
+    "id_name": "Poulet Roti a l'Algerienne (Ayam Panggang Aljazair)"
+  },
+  {
+    "id": "53283",
+    "id_name": "Chtitha Batata (Semur Kentang Aljazair)"
+  },
+  {
+    "id": "53287",
+    "id_name": "Tajine Ayam dan Ubi Manis"
+  },
+  {
+    "id": "53288",
+    "id_name": "Flafla Aljazair (Salad Paprika)"
+  },
+  {
+    "id": "53289",
+    "id_name": "Chorba Hamra bel Frik (Sup Domba, Tomat, dan Freekeh Aljazair)"
+  },
+  {
+    "id": "53296",
+    "id_name": "Pierogi Sauerkraut"
+  },
+  {
+    "id": "53297",
+    "id_name": "Salad Delima"
+  },
+  {
+    "id": "53305",
+    "id_name": "Kubis Isi Rebus"
+  },
+  {
+    "id": "53307",
+    "id_name": "Sauerkraut Bit Merah & Kubis Merah"
+  },
+  {
+    "id": "53309",
+    "id_name": "Salad Timun & Adas"
+  },
+  {
+    "id": "53312",
+    "id_name": "Slaw Kubis Tajam"
+  },
+  {
+    "id": "53313",
+    "id_name": "Latkes Bit Merah"
+  },
+  {
+    "id": "53314",
+    "id_name": "Pierogii Sauerkraut"
+  },
+  {
+    "id": "53327",
+    "id_name": "Ayam Kelapa Venezuela"
+  },
+  {
+    "id": "53331",
+    "id_name": "Pancake Gandum"
+  },
+  {
+    "id": "53336",
+    "id_name": "Kacang Panggang Molase"
+  },
+  {
+    "id": "53340",
+    "id_name": "Hodge Podge"
+  },
+  {
+    "id": "53345",
+    "id_name": "Resep Ayam Kari Jamaika"
+  },
+  {
+    "id": "53352",
+    "id_name": "Nasi dan Kacang Instant Pot Jamaika"
+  },
+  {
+    "id": "53357",
+    "id_name": "Nasi dan Kacang Polong Jamaika"
+  },
+  {
+    "id": "53358",
+    "id_name": "Mandi Ayam"
+  },
+  {
+    "id": "53363",
+    "id_name": "Bubur Cornmeal Jamaika"
+  },
+  {
+    "id": "53365",
+    "id_name": "Ayam Jeruk Cina"
+  },
+  {
+    "id": "53367",
+    "id_name": "Nasi Goreng Ayam"
+  },
+  {
+    "id": "53369",
+    "id_name": "Tahu Sutra dengan Saus Tiram Wijen"
+  },
+  {
+    "id": "53371",
+    "id_name": "Tumis Kacang Panjang Cina Gaya Sichuan"
+  },
+  {
+    "id": "53372",
+    "id_name": "Tumis Telur Tomat Cina"
+  },
+  {
+    "id": "53374",
+    "id_name": "Terong Sichuan"
+  },
+  {
+    "id": "53376",
+    "id_name": "Ayam Asam Manis"
+  },
+  {
+    "id": "53379",
+    "id_name": "Dutch Poffertjes (Pancake Mini Belanda)"
+  },
+  {
+    "id": "53383",
+    "id_name": "Mi Ramen dengan Telur Rebus"
+  }
+]

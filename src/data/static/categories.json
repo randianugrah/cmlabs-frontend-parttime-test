@@ -1,0 +1,72 @@
+[
+  {
+    "id": "Beef",
+    "name": "Daging Sapi",
+    "description": "Daging sapi adalah daging kuliner yang berasal dari sapi (Bos taurus). Sapi dapat dipanen sebagai banteng, lembu, sapi betina, atau sapi jantan. Klasifikasi daging sapi ditentukan oleh usia dan jenis kelamin hewan tersebut. Daging sapi merupakan salah satu sumber protein hewani yang paling populer di dunia karena teksturnya yang kaya dan kemampuannya untuk diolah menjadi berbagai hidangan, mulai dari steak hingga masakan lambat seperti rendang."
+  },
+  {
+    "id": "Chicken",
+    "name": "Ayam",
+    "description": "Ayam (Gallus gallus domesticus) adalah jenis unggas peliharaan, subspesies dari ayam hutan merah (Gallus gallus). Ayam adalah salah satu hewan ternak yang paling umum dan tersebar luas di dunia. Manusia memelihara ayam terutama sebagai sumber makanan, baik daging maupun telurnya. Secara kuliner, ayam sangat serbaguna karena memiliki rasa netral yang cocok dengan berbagai bumbu dan metode memasak, mulai dari digoreng, dipanggang, hingga direbus dalam sup."
+  },
+  {
+    "id": "Dessert",
+    "name": "Pencuci Mulut",
+    "description": "Menu pencuci mulut atau dessert adalah menu yang disajikan di akhir santapan, biasanya terdiri dari makanan manis. Istilah ini mencakup berbagai macam hidangan seperti kue, biskuit, agar-agar, kue kering, es krim, pai, dan puding. Buah-buahan juga sering ditemukan dalam menu pencuci mulut karena kesegarannya. Dessert berfungsi untuk menyeimbangkan rasa setelah menyantap hidangan utama yang biasanya gurih."
+  },
+  {
+    "id": "Lamb",
+    "name": "Domba",
+    "description": "Daging domba, domba muda, dan kambing adalah daging dari domba domestik (Ovis aries) atau kambing. Daging dari domba di bawah usia satu tahun dikenal sebagai 'lamb' (domba muda), sementara daging domba dewasa dikenal sebagai 'mutton'. Daging ini memiliki aroma khas yang kuat dan tekstur yang lembut, sangat populer dalam masakan Timur Tengah, Mediterania, dan Asia Selatan seperti dalam hidangan kari dan panggangan."
+  },
+  {
+    "id": "Miscellaneous",
+    "name": "Lain-lain",
+    "description": "Kategori ini mencakup berbagai bahan dan hidangan yang tidak masuk ke dalam klasifikasi utama lainnya. Ini bisa mencakup saus dasar, camilan unik, atau bahan-bahan pelengkap yang esensial dalam sebuah resep namun bersifat multifungsi."
+  },
+  {
+    "id": "Pasta",
+    "name": "Pasta",
+    "description": "Pasta adalah makanan pokok tradisional Italia yang terbuat dari adonan tidak beragi dari tepung gandum durum (semolina) yang dicampur dengan air atau telur. Pasta kemudian dibentuk menjadi berbagai variasi seperti lembaran, silinder, atau bentuk unik lainnya, dan dimasak dengan cara direbus. Ada ratusan jenis pasta yang masing-masing dirancang untuk dipasangkan dengan jenis saus tertentu."
+  },
+  {
+    "id": "Pork",
+    "name": "Babi",
+    "description": "Daging babi adalah daging kuliner dari babi domestik (Sus scrofa domesticus). Ini adalah daging yang paling umum dikonsumsi di seluruh dunia, dengan bukti peternakan babi yang berasal dari tahun 5000 SM. Daging babi dimakan baik dalam bentuk segar maupun yang diawetkan seperti ham, sosis, dan bacon."
+  },
+  {
+    "id": "Seafood",
+    "name": "Makanan Laut",
+    "description": "Makanan laut mencakup segala bentuk kehidupan laut yang dianggap sebagai makanan oleh manusia, terutama ikan dan kerang-kerangan. Makanan laut merupakan sumber protein, yodium, dan asam lemak omega-3 yang sangat baik. Kategori ini mencakup berbagai metode memasak dari mulai mentah (sashimi) hingga dibakar atau dibuat menjadi sup seafood yang kaya rasa."
+  },
+  {
+    "id": "Side",
+    "name": "Menu Sampingan",
+    "description": "Menu sampingan atau 'side dish' adalah makanan yang disajikan bersamaan dengan hidangan utama. Fungsi utamanya adalah untuk melengkapi rasa, tekstur, atau kandungan gizi dari menu utama. Contoh umum termasuk kentang goreng, salad, sayuran tumis, atau roti."
+  },
+  {
+    "id": "Starter",
+    "name": "Menu Pembuka",
+    "description": "Menu pembuka atau appetizer adalah porsi kecil makanan yang disajikan sebelum hidangan utama untuk merangsang nafsu makan. Biasanya memiliki rasa yang tajam atau gurih, dan bisa disajikan panas atau dingin."
+  },
+  {
+    "id": "Vegan",
+    "name": "Vegan",
+    "description": "Veganisme adalah cara hidup yang berupaya menghindari segala bentuk eksploitasi dan kekejaman terhadap hewan. Dalam konteks kuliner, hidangan vegan sepenuhnya bebas dari bahan turunan hewan, termasuk daging, susu, telur, dan madu, dengan fokus pada sayuran, biji-bijian, dan kacang-kacangan."
+  },
+  {
+    "id": "Vegetarian",
+    "name": "Vegetarian",
+    "description": "Masakan vegetarian didasarkan pada makanan yang memenuhi standar vegetarian dengan tidak menyertakan daging atau produk jaringan hewan lainnya. Berbeda dengan vegan, hidangan vegetarian mungkin masih menyertakan produk turunan hewan yang tidak melibatkan penyembelihan, seperti telur dan susu."
+  },
+  {
+    "id": "Breakfast",
+    "name": "Sarapan",
+    "description": "Sarapan adalah waktu makan pertama dalam sehari, biasanya disantap pada pagi hari sebelum memulai aktivitas. Menu sarapan bervariasi secara global, mulai dari sereal ringan hingga hidangan berat yang memberikan energi maksimal untuk memulai hari."
+  },
+  {
+    "id": "Goat",
+    "name": "Kambing",
+    "description": "Daging kambing adalah daging dari kambing domestik (Capra aegagrus hircus). Ini adalah bahan pokok dalam masakan banyak negara berkembang dan merupakan daging merah yang lebih rendah lemak dibandingkan sapi, namun kaya akan zat besi."
+  }
+]

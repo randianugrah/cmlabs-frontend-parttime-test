@@ -2,6 +2,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
+import { useLanguage } from '../../context/LanguageContext';
 
 interface ExpandableTextProps {
   text: string;
@@ -14,10 +15,12 @@ export const ExpandableText: React.FC<ExpandableTextProps> = ({ text, className,
   const [shouldShowReadMore, setShouldShowReadMore] = useState(false);
   const textRef = useRef<HTMLDivElement>(null);
 
+  const { t } = useLanguage();
+
   useEffect(() => {
     const checkTruncation = () => {
-      if (textRef.current) {
-        // Only show if content is taller than its visible container
+      if (textRef.current && !isExpanded) {
+        // Only evaluate truncation when the text is clamped
         setShouldShowReadMore(textRef.current.scrollHeight > textRef.current.clientHeight + 4);
       }
     };
@@ -49,12 +52,12 @@ export const ExpandableText: React.FC<ExpandableTextProps> = ({ text, className,
         >
           {isExpanded ? (
             <>
-              <span>Show Less</span>
+              <span>{t('show_less')}</span>
               <ChevronUp size={14} />
             </>
           ) : (
             <>
-              <span>Read More</span>
+              <span>{t('read_more')}</span>
               <ChevronDown size={14} />
             </>
           )}

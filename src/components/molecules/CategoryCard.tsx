@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Category } from '../../types/meal';
 import { PremiumImage } from '../atoms/PremiumImage';
+import { useLanguage } from '../../context/LanguageContext';
+import { translateCategory } from '../../utils/translator';
 
 interface CategoryCardProps {
   category: Category;
@@ -13,6 +15,7 @@ interface CategoryCardProps {
 export const CategoryCard: React.FC<CategoryCardProps> = ({ category }) => {
   const [isLoaded, setIsLoaded] = React.useState(false);
   const imgRef = React.useRef<HTMLImageElement>(null);
+  const { language, t } = useLanguage();
 
   const handleLoad = () => setIsLoaded(true);
 
@@ -42,10 +45,10 @@ export const CategoryCard: React.FC<CategoryCardProps> = ({ category }) => {
 
           <div className="z-10 w-full">
             <span className="inline-block px-2 py-0.5 rounded-full bg-orange-100 dark:bg-orange-500/20 text-orange-600 dark:text-orange-400 text-[9px] font-black mb-1.5 tracking-widest uppercase">
-              Category
+              {t('category')}
             </span>
             <h3 className="text-base md:text-xl font-black text-slate-800 dark:text-slate-100 group-hover:text-orange-500 transition-colors">
-              {category.strCategory}
+              {translateCategory(category.strCategory, language)}
             </h3>
           </div>
         </div>

@@ -5,6 +5,8 @@ import { Ingredient } from '../../types/meal';
 import { IngredientCard } from '../molecules/IngredientCard';
 import { Search as SearchIcon, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useLanguage } from '../../context/LanguageContext';
+import { translateIngredientName } from '../../utils/translator';
 
 interface IngredientGridProps {
   ingredients: Ingredient[];
@@ -13,6 +15,7 @@ interface IngredientGridProps {
 const ITEMS_PER_PAGE = 24;
 
 export const IngredientGrid: React.FC<IngredientGridProps> = ({ ingredients }) => {
+  const { language, t } = useLanguage();
   const [searchQuery, setSearchQuery] = useState('');
   const [isSearchExpanded, setIsSearchExpanded] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -21,16 +24,16 @@ export const IngredientGrid: React.FC<IngredientGridProps> = ({ ingredients }) =
   const loadMoreRef = useRef<HTMLDivElement>(null);
 
   const categories = [
-    { id: "All", label: "All", icon: "✨" },
-    { id: "Meat", label: "Meat", icon: "🥩" },
-    { id: "Poultry", label: "Poultry", icon: "🍗" },
-    { id: "Vegetable", label: "Vegetable", icon: "🥦" },
-    { id: "Seafood", label: "Seafood", icon: "🐟" },
-    { id: "Fruit", label: "Fruit", icon: "🍎" },
-    { id: "Spice", label: "Spice", icon: "🧂" },
-    { id: "Dairy", label: "Dairy", icon: "🧀" },
-    { id: "Pasta", label: "Grains & Nuts", icon: "🥜" },
-    { id: "Other", label: "Pantry", icon: "🥫" },
+    { id: "All", label: t('all_categories'), icon: "✨" },
+    { id: "Meat", label: t('cat_meat'), icon: "🥩" },
+    { id: "Poultry", label: t('cat_poultry'), icon: "🍗" },
+    { id: "Vegetable", label: t('cat_vegetable'), icon: "🥦" },
+    { id: "Seafood", label: t('cat_seafood'), icon: "🐟" },
+    { id: "Fruit", label: t('cat_fruit'), icon: "🍎" },
+    { id: "Spice", label: t('cat_spice'), icon: "🧂" },
+    { id: "Dairy", label: t('cat_dairy'), icon: "🧀" },
+    { id: "Pasta", label: t('cat_grains_nuts'), icon: "🥜" },
+    { id: "Other", label: t('cat_pantry'), icon: "🥫" },
   ];
 
   // Smart categorization helper
@@ -48,15 +51,16 @@ export const IngredientGrid: React.FC<IngredientGridProps> = ({ ingredients }) =
     if (apiType.match(/dairy|cheese|curd/)) return "Dairy";
     if (apiType.match(/pasta|grain|rice|bread|cereal|legume|bean|side/)) return "Pasta";
 
-    // 2. Keyword Detection (Aggressive Mapping)
-    if (name.match(/chicken|duck|turkey|goose/)) return "Poultry";
-    if (name.match(/beef|pork|lamb|bacon|ham|steak|sausage|meat|oxtail|chorizo|salami|pepperoni|mutton|brisket|loin/)) return "Meat";
-    if (name.match(/onion|tomato|garlic|potato|carrot|pepper|broccoli|cabbage|spinach|mushroom|leek|cucumber|celery|lettuce|aubergine|asparagus|kale|chili|chilli|ginger|radish/)) return "Vegetable";
-    if (name.match(/shrimp|fish|prawn|salmon|tuna|cod|squid|octopus|mussel|crab|seafood|anchovy/)) return "Seafood";
-    if (name.match(/apple|lemon|lime|orange|banana|grape|strawberry|berry|fruit|pineapple|mango|dates|pomegranate|cocoa|cacao|coconut|avocado/)) return "Fruit";
-    if (name.match(/pepper|salt|cinnamon|basil|oregano|thyme|turmeric|cumin|spice|herb|clove|parsley|vinegar|syrup|oil|sauce|mayonnaise|mustard|ketchup|honey|vanilla|extract|essence/)) return "Spice";
-    if (name.match(/milk|cheese|butter|yogurt|cream|dairy|feta|gouda|cheddar|parmesan|mozzarella/)) return "Dairy";
-    if (name.match(/pasta|spaghetti|noodle|macaroni|penne|fusilli|rice|flour|bread|cereal|wheat|oats|bean|lentils|chickpeas|cashew|peanut|almond|nut|pistachio|walnut|poppy|sesame|corn/)) return "Pasta";
+    // 2. Keyword Detection (Aggressive Mapping with Word Boundaries)
+    // Priority check: modifiers like milk, oil, juice, powder take precedence over base nouns (e.g. "coconut milk", "lemon juice")
+    if (name.match(/\b(milk|cheese|butter|yogurt|cream|dairy|feta|gouda|cheddar|parmesan|mozzarella)\b/)) return "Dairy";
+    if (name.match(/\b(pepper|salt|cinnamon|basil|oregano|thyme|turmeric|cumin|spice|herb|clove|parsley|vinegar|syrup|oil|sauce|mayonnaise|mustard|ketchup|honey|vanilla|extract|essence|juice|powder|paste|broth|stock|bouillon|cube|seasoning|flavoring|flavouring|can|canned|tin|tinned|soup|fat)\b/)) return "Spice";
+    if (name.match(/\b(pasta|spaghetti|noodle|macaroni|penne|fusilli|rice|flour|bread|cereal|wheat|oats|bean|lentils|chickpeas|cashew|peanut|almond|nut|nuts|pistachio|walnut|poppy|sesame|corn)\b/)) return "Pasta";
+    if (name.match(/\b(chicken|duck|turkey|goose)\b/)) return "Poultry";
+    if (name.match(/\b(beef|pork|lamb|bacon|ham|steak|sausage|meat|oxtail|chorizo|salami|pepperoni|mutton|brisket|loin)\b/)) return "Meat";
+    if (name.match(/\b(shrimp|fish|prawn|salmon|tuna|cod|squid|octopus|mussel|crab|seafood|anchovy)\b/)) return "Seafood";
+    if (name.match(/\b(onion|tomato|garlic|potato|carrot|broccoli|cabbage|spinach|mushroom|leek|cucumber|celery|lettuce|aubergine|asparagus|kale|chili|chilli|ginger|radish)\b/)) return "Vegetable";
+    if (name.match(/\b(apple|lemon|lime|orange|banana|grape|strawberry|berry|fruit|pineapple|mango|dates|pomegranate|cocoa|cacao|coconut|avocado)\b/)) return "Fruit";
 
     // 3. The "Pantry & Essentials" catch-all
     return "Other"; // This will now map to the "Pantry" button
@@ -64,7 +68,11 @@ export const IngredientGrid: React.FC<IngredientGridProps> = ({ ingredients }) =
 
   const filteredIngredients = React.useMemo(() => {
     const filtered = ingredients.filter((ingredient) => {
-      const matchesSearch = ingredient.strIngredient.toLowerCase().includes(searchQuery.toLowerCase());
+      const originalName = ingredient.strIngredient.toLowerCase();
+      const translatedName = translateIngredientName(ingredient.strIngredient, 'ID').toLowerCase();
+      const query = searchQuery.toLowerCase();
+      
+      const matchesSearch = originalName.includes(query) || translatedName.includes(query);
 
       const smartCat = getSmartCategory(ingredient);
 
@@ -147,16 +155,23 @@ export const IngredientGrid: React.FC<IngredientGridProps> = ({ ingredients }) =
             className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-600 dark:text-orange-400 text-[10px] md:text-xs font-bold uppercase tracking-widest mb-4"
           >
             <span className="w-1.5 h-1.5 rounded-full bg-orange-500 animate-pulse" />
-            Culinary Library
+            {t('culinary_library')}
           </motion.div>
 
           <h1 className="text-4xl md:text-6xl font-black text-slate-800 dark:text-slate-100 mb-4 tracking-tighter leading-none">
-            Master Your <span className="text-orange-500">Ingredients</span>
+            {t('ingredients_title').split(' ').map((word, i, arr) => (
+              <React.Fragment key={i}>
+                {i === arr.length - 1 ? (
+                  <span className="text-orange-500">{word}</span>
+                ) : (
+                  <>{word} </>
+                )}
+              </React.Fragment>
+            ))}
           </h1>
 
           <p className="text-sm md:text-lg text-slate-500 dark:text-slate-400 max-w-2xl mx-auto px-4 leading-relaxed">
-            Unlock the potential of your kitchen. Browse through our curated collection
-            of flavors and start your next culinary masterpiece.
+            {t('ingredients_subtitle')}
           </p>
         </div>
 
@@ -188,7 +203,7 @@ export const IngredientGrid: React.FC<IngredientGridProps> = ({ ingredients }) =
                 >
                   <input
                     type="text"
-                    placeholder="Search ingredients..."
+                    placeholder={t('search_ingredients')}
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     className="w-full bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 rounded-xl py-2 pl-10 pr-4 text-sm text-slate-800 dark:text-slate-100 outline-none focus:ring-2 focus:ring-orange-500/50 transition-all"
@@ -219,7 +234,7 @@ export const IngredientGrid: React.FC<IngredientGridProps> = ({ ingredients }) =
 
         {visibleIngredients.length > 0 ? (
           <>
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+            <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-6">
               {visibleIngredients.map((item) => (
                 <IngredientCard
                   key={item.idIngredient}
@@ -240,7 +255,9 @@ export const IngredientGrid: React.FC<IngredientGridProps> = ({ ingredients }) =
           </>
         ) : (
           <div className="text-center py-20 bg-slate-50 dark:bg-slate-900/30 rounded-3xl">
-            <p className="text-slate-400">No ingredients found for "{searchQuery}"</p>
+            <p className="text-slate-400">
+              {t('no_ingredients_found', { query: searchQuery })}
+            </p>
           </div>
         )}
       </motion.div>

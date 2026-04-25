@@ -5,10 +5,13 @@ import Link from 'next/link';
 import { usePathname, useSearchParams } from 'next/navigation';
 import { ChevronRight, Home, ChefHat, Globe, Utensils, Tag } from 'lucide-react';
 import { motion, useScroll, useMotionValueEvent } from 'framer-motion';
+import { useLanguage } from '../../context/LanguageContext';
+import { translateIngredientName, translateMealName } from '../../utils/translator';
 
 export const Breadcrumbs: React.FC = () => {
   const pathname = usePathname();
   const searchParams = useSearchParams();
+  const { language, t } = useLanguage();
   const from = searchParams.get('from');
   const type = searchParams.get('type');
   
@@ -40,8 +43,8 @@ export const Breadcrumbs: React.FC = () => {
   const getBreadcrumbs = () => {
     const breadcrumbs = [
       isExploreBranch 
-        ? { name: 'Explore', href: '/explore', icon: <Globe size={14} /> }
-        : { name: 'Ingredients', href: '/', icon: <ChefHat size={14} /> }
+        ? { name: t('explore'), href: '/explore', icon: <Globe size={14} /> }
+        : { name: t('ingredients'), href: '/', icon: <ChefHat size={14} /> }
     ];
 
     pathSegments.forEach((segment, index) => {
@@ -53,23 +56,37 @@ export const Breadcrumbs: React.FC = () => {
       
       // Custom handling for segments
       if (lowerSegment === 'cuisine') {
-        breadcrumbs.push({ name: 'Cuisine', href: '/explore?tab=cuisines', icon: <Globe size={14} /> });
+        breadcrumbs.push({ name: t('cuisine'), href: '/explore?tab=cuisines', icon: <Globe size={14} /> });
       } else if (lowerSegment === 'category') {
-        breadcrumbs.push({ name: 'Category', href: '/explore?tab=categories', icon: <Tag size={14} /> });
+        breadcrumbs.push({ name: t('category'), href: '/explore?tab=categories', icon: <Tag size={14} /> });
       } else if (lowerSegment === 'meal') {
         if (from) {
           if (type === 'cuisine') {
-            breadcrumbs.push({ name: 'Cuisine', href: '/explore?tab=cuisines', icon: <Globe size={14} /> });
+            breadcrumbs.push({ name: t('cuisine'), href: '/explore?tab=cuisines', icon: <Globe size={14} /> });
           } else if (type === 'category') {
-            breadcrumbs.push({ name: 'Category', href: '/explore?tab=categories', icon: <Tag size={14} /> });
+            breadcrumbs.push({ name: t('category'), href: '/explore?tab=categories', icon: <Tag size={14} /> });
           } else {
-            breadcrumbs.push({ name: from, href: `/ingredient/${encodeURIComponent(from)}`, icon: <ChefHat size={14} /> });
+            breadcrumbs.push({ name: translateIngredientName(from, language), href: `/ingredient/${encodeURIComponent(from)}`, icon: <ChefHat size={14} /> });
           }
         }
-        breadcrumbs.push({ name: 'Recipe', href: '#', icon: <Utensils size={14} /> });
+        breadcrumbs.push({ name: t('recipe'), href: '#', icon: <Utensils size={14} /> });
+      } else if (lowerSegment === 'ingredient') {
+         // Skip the word 'ingredient' itself as it's often redundant in breadcrumbs
+         return;
+      } else if (prevSegment === 'ingredient') {
+         // This is the actual ingredient name
+         breadcrumbs.push({ 
+           name: translateIngredientName(decodeURIComponent(segment), language), 
+           href: `/ingredient/${segment}`, 
+           icon: <ChefHat size={14} /> 
+         });
       } else if (lowerSegment !== 'explore' && lowerSegment !== 'ingredient' && prevSegment !== 'meal') {
         // Default segment mapping
         let name = decodeURIComponent(segment);
+        
+        // Try to translate if it looks like a meal ID or name
+        // (Note: identifying meal IDs in URL segments might be tricky without extra logic)
+        
         name = name.charAt(0).toUpperCase() + name.slice(1);
         const href = `/${pathSegments.slice(0, index + 1).join('/')}`;
         breadcrumbs.push({ name, href, icon: <Tag size={14} /> });

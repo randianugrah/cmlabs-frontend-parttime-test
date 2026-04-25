@@ -3,10 +3,12 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Category } from '../../types/meal';
 import { CategoryCard } from '../molecules/CategoryCard';
-import { useSearchParams } from 'next/navigation';
+import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { Globe, LayoutGrid, Search as SearchIcon, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { translateCategory, translateArea } from '../../utils/translator';
+import { useLanguage } from '../../context/LanguageContext';
 
 interface ExploreViewProps {
   categories: Category[];
@@ -55,6 +57,8 @@ const areaFlags: Record<string, string> = {
 
 export const ExploreView: React.FC<ExploreViewProps> = ({ categories, areas }) => {
   const searchParams = useSearchParams();
+  const router = useRouter();
+  const { language, t } = useLanguage();
   const tabParam = searchParams.get('tab');
   
   const [searchQuery, setSearchQuery] = useState('');
@@ -69,19 +73,16 @@ export const ExploreView: React.FC<ExploreViewProps> = ({ categories, areas }) =
     } else if (tabParam === 'categories') {
       setActiveTab('categories');
     }
-
-    // Log categories for auditing
-    if (categories.length > 0) {
-      console.log("🍽️ MEAL CATEGORIES AVAILABLE:", categories.map(c => c.strCategory));
-    }
-  }, [tabParam, categories]);
+  }, [tabParam]);
 
   const filteredCategories = useMemo(() => {
-    const filtered = categories.filter((cat) => 
-      cat.strCategory.toLowerCase().includes(searchQuery.toLowerCase())
-    );
+    const filtered = categories.filter((cat) => {
+      const originalName = cat.strCategory.toLowerCase();
+      const translatedName = translateCategory(cat.strCategory, 'ID').toLowerCase();
+      const query = searchQuery.toLowerCase();
+      return originalName.includes(query) || translatedName.includes(query);
+    });
     
-    // Custom sort: Move "Pork" to the very end
     return [...filtered].sort((a, b) => {
       if (a.strCategory.toLowerCase() === 'pork') return 1;
       if (b.strCategory.toLowerCase() === 'pork') return -1;
@@ -98,10 +99,10 @@ export const ExploreView: React.FC<ExploreViewProps> = ({ categories, areas }) =
     <section className="py-6 md:py-10">
       <div className="text-center mb-8">
         <h1 className="text-3xl md:text-5xl font-black text-slate-800 dark:text-slate-100 mb-2">
-          Explore <span className="text-orange-500">World Flavors</span>
+          {t('explore_title')}
         </h1>
         <p className="text-sm md:text-base text-slate-500 dark:text-slate-400 max-w-xl mx-auto mb-10 px-4">
-          Discover meals by theme or explore cuisines from around the globe.
+          {t('explore_subtitle')}
         </p>
 
         {/* Tab Switcher & Mini Search Container */}
@@ -116,7 +117,7 @@ export const ExploreView: React.FC<ExploreViewProps> = ({ categories, areas }) =
               }`}
             >
               <LayoutGrid size={18} />
-              <span>By Category</span>
+              <span>{t('categories')}</span>
             </button>
             <button
               onClick={() => setActiveTab('cuisines')}
@@ -127,11 +128,10 @@ export const ExploreView: React.FC<ExploreViewProps> = ({ categories, areas }) =
               }`}
             >
               <Globe size={18} />
-              <span>By Cuisine</span>
+              <span>{t('cuisines')}</span>
             </button>
           </div>
 
-          {/* Mini Search - Positioned Left-ish Below Tabs */}
           <div className="w-full flex justify-start px-4">
             <div className="relative flex items-center">
               <AnimatePresence>
@@ -144,7 +144,7 @@ export const ExploreView: React.FC<ExploreViewProps> = ({ categories, areas }) =
                   >
                     <input
                       type="text"
-                      placeholder={activeTab === 'categories' ? "Search categories..." : "Search cuisines..."}
+                      placeholder={activeTab === 'categories' ? t('search_category') : t('search_area')}
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
                       className="w-full bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 rounded-xl py-2 pl-10 pr-4 text-sm text-slate-800 dark:text-slate-100 outline-none focus:ring-2 focus:ring-orange-500/50 transition-all"
@@ -178,7 +178,10 @@ export const ExploreView: React.FC<ExploreViewProps> = ({ categories, areas }) =
       {activeTab === 'categories' ? (
         <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
           {filteredCategories.map((category) => (
-            <CategoryCard key={category.idCategory} category={category} />
+            <CategoryCard 
+              key={category.idCategory} 
+              category={category} 
+            />
           ))}
         </div>
       ) : (
@@ -193,9 +196,9 @@ export const ExploreView: React.FC<ExploreViewProps> = ({ categories, areas }) =
                 {areaFlags[area.strArea] || "🏳️"}
               </div>
               <h3 className="font-bold text-slate-800 dark:text-slate-100 group-hover:text-orange-500 transition-colors">
-                {area.strArea}
+                {translateArea(area.strArea, language)}
               </h3>
-              <p className="text-xs text-slate-400 mt-1">Explore Recipes</p>
+              <p className="text-xs text-slate-400 mt-1">{t('view_recipe')}</p>
             </Link>
           ))}
         </div>
@@ -203,7 +206,9 @@ export const ExploreView: React.FC<ExploreViewProps> = ({ categories, areas }) =
 
       {(activeTab === 'categories' ? filteredCategories : filteredAreas).length === 0 && (
         <div className="text-center py-20 bg-slate-50 dark:bg-slate-900/30 rounded-3xl">
-          <p className="text-slate-400">No results found for "{searchQuery}"</p>
+          <p className="text-slate-400">
+            {t('no_results_found').replace('{query}', searchQuery)}
+          </p>
         </div>
       )}
     </section>

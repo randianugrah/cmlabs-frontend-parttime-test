@@ -5,15 +5,17 @@ import Link from 'next/link';
 import { usePathname, useSearchParams } from 'next/navigation';
 import { ChefHat, Globe, LayoutGrid, Utensils } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { useLanguage } from '../../context/LanguageContext';
 
 export const BottomNav: React.FC = () => {
   const pathname = usePathname();
   const searchParams = useSearchParams();
+  const { t } = useLanguage();
   const type = searchParams.get('type');
 
   const navLinks = [
-    { name: 'Ingredients', href: '/', icon: ChefHat },
-    { name: 'Explore', href: '/explore', icon: Globe },
+    { name: t('ingredients_tab'), href: '/', icon: Utensils },
+    { name: t('explore_tab'), href: '/explore', icon: LayoutGrid },
   ];
 
   const isActive = (path: string) => {

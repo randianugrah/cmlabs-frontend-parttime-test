@@ -5,10 +5,14 @@ import Link from 'next/link';
 import { usePathname, useSearchParams } from 'next/navigation';
 import { Logo } from '../atoms/Logo';
 import { ThemeToggle } from '../atoms/ThemeToggle';
+import { LanguageToggle } from '../atoms/LanguageToggle';
+import { PageLoader } from '../atoms/PageLoader';
+import { useLanguage } from '../../context/LanguageContext';
 
 export const Header: React.FC = () => {
   const pathname = usePathname();
   const searchParams = useSearchParams();
+  const { t } = useLanguage();
   const type = searchParams.get('type');
 
   const isActive = (path: string) => {
@@ -24,8 +28,8 @@ export const Header: React.FC = () => {
   };
 
   const navLinks = [
-    { name: 'Ingredients', href: '/' },
-    { name: 'Explore', href: '/explore' },
+    { name: t('ingredients_tab'), href: '/' },
+    { name: t('explore_tab'), href: '/explore' },
   ];
 
   return (
@@ -52,16 +56,19 @@ export const Header: React.FC = () => {
               </li>
             ))}
           </ul>
-          <div className="flex items-center">
+          <div className="flex items-center gap-2">
+            <LanguageToggle />
             <ThemeToggle />
           </div>
         </nav>
 
-        {/* Mobile Action (Theme Only) */}
-        <div className="flex md:hidden items-center z-[110] w-fit">
+        {/* Mobile Action (Theme & Language) */}
+        <div className="flex md:hidden items-center gap-2 z-[110] w-fit">
+          <LanguageToggle />
           <ThemeToggle />
         </div>
       </div>
+      <PageLoader />
     </header>
   );
 };

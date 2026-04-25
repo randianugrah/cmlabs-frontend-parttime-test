@@ -6,6 +6,9 @@ import { MealCard } from '../molecules/MealCard';
 import { Search as SearchIcon, X, Search } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
+import { translateCategory, translateArea, translateIngredientName, getLocalizedMeal } from '../../utils/translator';
+import { useLanguage } from '../../context/LanguageContext';
+
 interface MealGridProps {
   meals: Meal[];
   ingredientName?: string;
@@ -17,6 +20,7 @@ export const MealGrid: React.FC<MealGridProps> = ({ meals, ingredientName, title
   const [search, setSearch] = useState('');
   const [isSearchExpanded, setIsSearchExpanded] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
+  const { language, t } = useLanguage();
 
   useEffect(() => {
     setIsMounted(true);
@@ -36,10 +40,10 @@ export const MealGrid: React.FC<MealGridProps> = ({ meals, ingredientName, title
       >
         <div className="text-center mb-8">
           <h1 className="text-2xl md:text-5xl font-black text-slate-800 dark:text-slate-100 mb-2">
-            {title || <>Meals with <span className="text-orange-500">{ingredientName}</span></>}
+            {title || <>{t('meals_with')} <span className="text-orange-500">{translateIngredientName(ingredientName || '', language)}</span></>}
           </h1>
           <p className="text-sm md:text-base text-slate-500 dark:text-slate-400 max-w-xl mx-auto mb-6">
-            Found {meals.length} recipes.
+            {t('found_recipes').replace('{count}', meals.length.toString())}
           </p>
 
           {/* Mini Search - Left Aligned */}
@@ -55,7 +59,7 @@ export const MealGrid: React.FC<MealGridProps> = ({ meals, ingredientName, title
                   >
                     <input
                       type="text"
-                      placeholder="Search meals..."
+                      placeholder={t('search_placeholder')}
                       value={search}
                       onChange={(e) => setSearch(e.target.value)}
                       className="w-full bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 rounded-xl py-2 pl-10 pr-4 text-sm text-slate-800 dark:text-slate-100 outline-none focus:ring-2 focus:ring-orange-500/50 transition-all"
@@ -111,10 +115,10 @@ export const MealGrid: React.FC<MealGridProps> = ({ meals, ingredientName, title
 
             <div className="space-y-2">
               <h3 className="text-xl font-black text-slate-800 dark:text-slate-100">
-                No recipes found
+                {t('no_recipes')}
               </h3>
               <p className="text-slate-500 dark:text-slate-400 max-w-xs mx-auto">
-                We couldn't find any recipes matching <span className="text-orange-500 font-bold italic">"{search}"</span>. Try a different keyword!
+                {t('no_recipes_desc').replace('{query}', search)}
               </p>
             </div>
           </motion.div>
