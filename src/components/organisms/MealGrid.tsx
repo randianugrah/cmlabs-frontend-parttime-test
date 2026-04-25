@@ -39,9 +39,11 @@ export const MealGrid: React.FC<MealGridProps> = ({ meals, ingredientName, title
         transition={{ duration: 0.5 }}
       >
         <div className="text-center mb-8">
-          <h1 className="text-2xl md:text-5xl font-black text-slate-800 dark:text-slate-100 mb-2">
-            {title || <>{t('meals_with')} <span className="text-orange-500">{translateIngredientName(ingredientName || '', language)}</span></>}
-          </h1>
+          {title && (
+            <h1 className="text-2xl md:text-5xl font-black text-slate-800 dark:text-slate-100 mb-2">
+              {title}
+            </h1>
+          )}
           <p className="text-sm md:text-base text-slate-500 dark:text-slate-400 max-w-xl mx-auto mb-6">
             {t('found_recipes').replace('{count}', meals.length.toString())}
           </p>

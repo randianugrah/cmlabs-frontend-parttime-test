@@ -1,5 +1,8 @@
 [
+  { "en": "Algerian", "id": "Aljazair" },
   { "en": "American", "id": "Amerika" },
+  { "en": "Argentinian", "id": "Argentina" },
+  { "en": "Australian", "id": "Australia" },
   { "en": "British", "id": "Inggris" },
   { "en": "Canadian", "id": "Kanada" },
   { "en": "Chinese", "id": "Tiongkok" },
@@ -31,5 +34,6 @@
   { "en": "Turkish", "id": "Turki" },
   { "en": "Ukrainian", "id": "Ukraina" },
   { "en": "Uruguayan", "id": "Uruguay" },
+  { "en": "Venezulan", "id": "Venezuela" },
   { "en": "Vietnamese", "id": "Vietnam" }
 ]
