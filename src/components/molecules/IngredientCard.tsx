@@ -60,14 +60,14 @@ export const IngredientCard: React.FC<IngredientCardProps> = ({ ingredient, onLo
 
         {/* Content Overlay - Centered & Large */}
         <div className="absolute inset-0 z-20 flex flex-col items-center justify-center p-2 md:p-6 text-center">
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center w-full px-2">
             {ingredient.strType && (
               <span className="text-[8px] md:text-[10px] font-black text-orange-600 dark:text-orange-400 uppercase tracking-[0.4em] mb-1">
                 {ingredient.strType}
               </span>
             )}
 
-            <h3 className="text-base md:text-3xl font-bold text-slate-800 dark:text-white leading-tight tracking-wide md:group-hover:text-orange-600 dark:md:group-hover:text-orange-400 transition-colors duration-300 drop-shadow-sm">
+            <h3 className="text-lg md:text-2xl font-bold text-slate-800 dark:text-white leading-snug tracking-wide md:group-hover:text-orange-600 dark:md:group-hover:text-orange-400 transition-colors duration-300 drop-shadow-sm line-clamp-3">
               {translateIngredientName(ingredient.strIngredient, language)}
             </h3>
 
@@ -79,3 +79,4 @@ export const IngredientCard: React.FC<IngredientCardProps> = ({ ingredient, onLo
     </motion.div>
   );
 };
+
